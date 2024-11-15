@@ -17,6 +17,7 @@ public class Transaction {
             account.deposit(amount);
         } else if (transactionType.equals("withdraw")) {
             account.withdraw(amount);
+            String mouse = "mouse";
         }
     }
 
